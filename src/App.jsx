@@ -30,6 +30,11 @@ export default function App() {
       <Routes>
         {/* Globel Links */}
         {/* <Route path='/' element={<HomePage/>}/> */}
+        <Route path='/' element={
+          <div>
+            <HomePage/>
+          </div>
+        }/>
         <Route element={<Website/>}>
           <Route path='/' element={<HomePage/>}/>
           <Route path='/homeCategories' element={<HomeCategories/>}/>
